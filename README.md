@@ -24,4 +24,5 @@ Preinstalled Libraries :
  <ol>
  <li>Open cmd(Run as Administrator) - > Type is command [pip install pynput]</li>
  <li>Run keylogger_1.py using python IDLE </li>
+ <li>Check the output file with any FileEditor</li>
 </ol> 
