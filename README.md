@@ -11,11 +11,11 @@ Prerequisite:
  Library Used:
  <ol>
  <li> Pynput</li>
- <li>logging<li>
+ <li>logging</li>
  <li> Os </li>
   </ol>
 
-Predefined Libraryies : 
+Preinstalled Libraries : 
 <ol><li>logging</li> <li> os</li></ol>
  
  Install pynput library using pip:<ol> *[pip install pynput]* </ol>
