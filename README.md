@@ -1,21 +1,27 @@
 # Keylogger
 
-KeyLogger Using Python ****Only For Windows****
+## KeyLogger Using Python _****Only For Windows****_
 
 Prerequisite:
-  Python 3.x (x: Version)
-  Any IDE
+<ol>
+<li>Python 3.x (x: Version)</li>
+<li>Any IDE</li>
+</ol>
  
  Library Used:
-  Pynput
-  logging
-  Os
-  
- Predefined Libraryies : logging os
+ <ol>
+ <li> Pynput</li>
+ <li>logging<li>
+ <li> Os </li>
+  </ol>
+
+Predefined Libraryies : 
+<ol><li>logging</li> <li> os</li></ol>
  
- Install pynput library using pip: [pip install pynput]
+ Install pynput library using pip:<ol> *[pip install pynput]* </ol>
  
  Direction To use Code:
- 1)Open cmd(Run as Administrator) - > Type is command [pip install pynput]
- 2)Run keylogger_1.py using python IDEL
- 
+ <ol>
+ <li>Open cmd(Run as Administrator) - > Type is command [pip install pynput]</li>
+ <li>Run keylogger_1.py using python IDLE </li>
+</ol> 
