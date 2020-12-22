@@ -18,11 +18,10 @@ Prerequisite:
 Preinstalled Libraries : 
 <ol><li>logging</li> <li> os</li></ol>
  
- Install pynput library using pip:<ol> *[pip install pynput]* </ol>
+ Install pynput library using pip[If needed to done manualy]:<ol> *[pip install pynput]* </ol>
  
  Direction To use Code:
  <ol>
- <li>Open cmd(Run as Administrator) - > Type is command [pip install pynput]</li>
- <li>Run keylogger_1.py using python IDLE </li>
+ <li>Run keylogger.py using python IDLE </li>
  <li>Check the output file with any FileEditor</li>
 </ol> 
