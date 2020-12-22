@@ -13,10 +13,11 @@ Prerequisite:
  <li> Pynput</li>
  <li>logging</li>
  <li> Os </li>
+ <li> pathlib</li>
   </ol>
 
 Preinstalled Libraries : 
-<ol><li>logging</li> <li> os</li></ol>
+<ol><li>logging</li> <li> os</li><li> pathlib</li></ol>
  
  Install pynput library using pip[If needed to done manualy]:<ol> *[pip install pynput]* </ol>
  
